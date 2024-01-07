@@ -1,0 +1,40 @@
+﻿/* curior soild groov for input{border:} */
+/* main page is in register and login */
+.divalldiv {
+    box-shadow: inset 0px 0px 16px 10px rgb(129 124 124 / 100%);
+    backdrop-filter: blur(5px);
+    border-radius: 100px;
+    margin-left: 460px;
+   display :inline-block;
+
+    padding: 50px;
+}
+#bttSubmit {
+    margin-left: 100px;
+}
+#bttshow {
+margin-left:130px;
+}
+#txtfName, #txtlName, #txtTofC, #txtDofC, #txtNN, #txtPhn {
+    width: 100%;
+    border-radius: 11px;
+}
+
+button:hover {
+    color: purple;
+    
+}
+a:hover {
+    color: red
+}
+#a-reg {
+text-align:center;
+margin-left:120px;
+}
+a:active {
+    color: orange;
+}
+
+a:visited {
+    color: purple;
+}

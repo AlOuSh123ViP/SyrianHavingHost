@@ -1,0 +1,25 @@
+﻿.divalldiv {
+    box-shadow: inset 0px 0px 16px 10px rgb(129 124 124 / 100%);
+    backdrop-filter: blur(5px);
+    border-radius: 100px;
+    margin-left: 460px;
+    display: inline-grid;
+    padding: 100px;
+    justify-items:center;
+}
+#txtfName,  #txtNN {
+    width: 100%;
+    border-radius: 11px;
+}
+.notStudentLogin { margin-left:14px; }
+#bttSubmit {
+    margin-left:12px;
+padding-left:50px;
+padding-right:50px;
+}
+button:hover {color: purple;}
+
+a:hover {color: red}
+a:active {color: orange;}
+
+a:visited {color: purple;}   

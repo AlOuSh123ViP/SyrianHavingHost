@@ -1,0 +1,108 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AcademicSpecialization_Page.aspx.cs" Inherits="AlaaWarrak_Pr2Final_Project.AcademicSpecialization_Page" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="style_AcademicSection.css"/>
+    <title>Academic Specialization</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+             <!-- Navigation Bar -->
+        <nav>
+      <div id="home">
+        <div class="profile_name">
+          Technical Institute for Computer
+          <div class="contact_info">
+              <asp:Image ID="Image1" runat="server" ImageUrl="html_finalprojimages/envelope.png" AlternateText="https://icons8.com/icon/124377/circled-envelope" />
+               Technical_Institute_for_Computer@jeemail.com
+        </div>
+        <div style="clear:both"></div>
+        <div class="contact_info">
+            <asp:Image ID="Image2" runat="server" ImageUrl="html_finalprojimages/phone.png" AlternateText="this image is show the phone number contact-info" />
+          +963932872832
+            </div>
+        </div>
+
+        <div class="topdiv">
+          <a class="topmenu" href="#Network">Computer Network</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#Science">Computer Science</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+       
+        <div class="topdiv">
+          <a class="topmenu" href="#Software">Software Engineering</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+<%-- -------------------------------------------------------------------------- --%>
+
+             <!-- About us -->
+        <section id="about-me"  class="Container"   style="display: flex;">
+      <div>
+          <asp:Image ID="tenorGif" runat="server" ImageUrl="html_finalprojimages/tenor.gif" CssClass="profile_image" />
+      </div>
+
+            <div>
+          <h1>
+          Technical Institute for computer in Syria! <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png"/>
+          </h1>
+          <p>
+            Welcome to the Academic Specialization page for us. This Information is provided for <strong>Technical Institute Students</strong> 
+           please review them Carfully
+          </p>
+      </div>
+    </section>
+
+             <section class="projects" id="projects">
+      <h2>
+       Our Academic Specialization
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div id="Software" class="project-card">
+            <h3>Software Engineering</h3>
+            <ul>
+              <li><div>
+                <asp:Label ID="Label1" runat="server" Text="Press at the link to download your Lesson plan"></asp:Label>
+                <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="http://www.hama-univ.edu.sy/newsites/inst-tech/wp-content/uploads/2018/05/الخطة-الدرسية-هندسة-برمجيات.pdf" Text="Download File"></asp:LinkButton>
+
+            </div></li>
+            </ul>
+          </div>
+          <hr/>
+          <div id="Network" class="project-card">
+            <h3>Computer Network</h3>
+            <ul>
+              <li><asp:Label ID="Label2" runat="server" Text="Press at the link to download your Lesson plan"></asp:Label>
+                <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="http://www.hama-univ.edu.sy/newsites/inst-tech/wp-content/uploads/2018/05/الخطة-الدرسية-هندسة-شبكات.pdf" Text="Download File"></asp:LinkButton></li>
+            </ul>
+          </div>
+          <hr/>
+          <div id="Science" class="project-card">
+            <h3>Computer Science</h3>
+            <ul>
+              <li><asp:Label ID="Label3" runat="server" Text="Press at the link to download your Lesson plan"></asp:Label>
+                <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="http://www.hama-univ.edu.sy/newsites/inst-tech/wp-content/uploads/2018/05/الخطة-الدرسية-هندسة-برمجيات.pdf" Text="Download File"></asp:LinkButton></li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+
+
+        </div>
+    </form>
+</body>
+</html>
